@@ -1,0 +1,9 @@
+<%= form_with model: @bookmark do |f| %>
+  <%= f.label :title, 'タイトル' %>
+  <%= f.text_field :title %>
+  <%= f.label :url, 'URL' %>
+  <%= f.text_field :url %>
+   <%= f.label :name, '名前' %>
+  <%= f.text_field :name %>
+  <%= f.submit '更新' %>
+<% end %>
